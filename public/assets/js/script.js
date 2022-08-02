@@ -1,4 +1,4 @@
-fetch("/public/assets/js/movies.json")
+fetch("public/assets/js/movies.json")
 .then(function(response) {
     return response.json()
 })
